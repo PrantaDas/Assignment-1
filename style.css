@@ -1,3 +1,156 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
+.pg{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.clr{
+    color:orangered;
+    font-size: 60px;
+}
+.clr1{
+    color: darkmagenta;
+}
+.fh{
+    font-size: 60px;
+}
+.bimage{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+.des1{
+    padding-left: 10px;
+}
+.first-section{
+    display: flex;
+    padding-left: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.image-add{
+    height: 500px;
+    width: 400px;
+}
+.first-section p{
+    text-align: justify;
+}
+.mission-goal{
+    width: 500px;
+}
+.button-style{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: teal;
+    color: black;
+}
+.button-style:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+ }
+ .justify-pg{
+     text-align: justify;
+ }
+ .second-section{
+     display: flex;
+     align-content: space-between;
+     margin-left: 300px;
+     margin-top: 100px;
+ }
+ .icon-edit{
+     height: 150px;
+     width: 160px;
+ }
+ .card-view1{
+     border: 1px solid gray;
+     border-radius: 40px;
+     box-shadow: hotpink;
+     background-color: rgba(122, 182, 231, 0.315);
+     height: 470px;
+     width: 300px;
+     padding: 0 15px;
+ }
+ .card-view2{
+    border: 1px solid gray;
+    border-radius: 40px;
+    box-shadow: hotpink;
+    background-color: rgba(141, 197, 185, 0.26);
+    height: 470px;
+    width: 300px;
+    padding: 0 15px;
+    margin-left: 50px;
+ }
+ .card-view3{
+    border: 1px solid gray;
+    border-radius: 40px;
+    box-shadow: hotpink;
+    background-color: rgba(216, 185, 216, 0.328);
+    height: 470px;
+    width: 300px;
+    padding: 0 15px;
+    margin-left: 50px;
+ }
+ .title-edit{
+     font-weight: 900;
+     font-size: 45PX;
+ }
+ .third-section{
+     display: flex;
+     align-content: space-between;
+     margin-top: 150px;
+ }
+ .thirdimage-edit{
+     height: 450px;
+     width: 400px;
+     margin-left: 300px;
+ }
+ .des2{
+     margin-left: 100px;
+ }
+ .fourth-section{
+     display: flex;
+     margin-left: 300px;
+     margin-top: 150px;
+ }
+ .fourth-image-edit{
+    height: 450px;
+    width: 400px;
+    margin-left: 150px;
+ }
+ .fifthimage-edit{
+    height: 450px;
+    width: 400px;
+    border-radius: 20px;
+ }
+ .fifth-section{
+     display: flex;
+     margin-top: 50px;
+     margin-left: 290px;
+     margin-bottom: 150px;
+ }
+ .des4{
+    height: 400px;
+    width: 300px;
+    margin-left: 200px;
+ }
+ .s5{
+     color: orangered;
+ }
+ footer{
+     margin: 0;
+     padding-top: 50px;
+     text-align: center;
+     color: white;
+     height: 200px;
+     width: auto;
+     border: 1px solid black;
+     box-shadow: black;
+     background-color: black;
+ }
